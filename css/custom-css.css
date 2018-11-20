@@ -1,0 +1,2082 @@
+/**************************custom css start**************************/
+.row{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+
+/* nav start */
+.padding-nav{
+	padding: 0px 28px;
+}
+.nav-bg{
+background-color: transparent;
+color: #fff;
+
+}
+
+.nav-color li a{
+	background-color: transparent !important;
+	color: #fff !important;
+	font-size: 13px;
+    font-weight: 500;
+}
+.navbar {
+
+    border: 0px;
+}
+.navbar-brand img {
+    width: 45%;
+     height: 100%; 
+
+}
+.navbar-default {
+	padding-top:10px;
+	padding-bottom:10px;
+}
+.navbar-fixed-top.scrolled {
+	background-color: #316a41 !important;
+	transition: background-color 200ms linear;
+  }
+  .navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 5px 15px;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+/* nav end */
+
+/* header start */
+
+
+
+#main{
+
+	background: url(../img/top-banner.jpg) ;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	height: 370px;
+	padding-top: 100px;
+	
+}
+
+.tab-shadow{
+	-webkit-box-shadow: 0px 3px 11px 1px rgba(0,0,0,0.47);
+-moz-box-shadow: 0px 3px 11px 1px rgba(0,0,0,0.11);
+box-shadow: 0px 3px 11px 1px rgba(0, 0, 0, 0.11);
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+}
+
+.bg{
+	background-color: rgba(0, 0, 0, 0.18);
+	color: #fff;
+	padding: 10px;
+}
+
+.bg p{
+	margin: 0px;
+    font-size: 17px;
+    font-weight: 200;
+}
+.font-h1-header{
+	font-size: 25px;
+	font-weight: 600;
+	color: #fff;
+}
+
+.color-white{
+	color: #fff;
+
+}
+/* header end */
+
+/* table start */
+#table{
+    height: 100%;
+    width: 100%;
+    background-image: url(../img/dot-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    //for browser compatibility
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+}
+.tab-position{
+	position: relative;
+    top: -71px;
+}
+
+table td {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: middle;
+    /* border-top: 1px solid #ddd; */
+    border: 0px !important;
+	padding: 12px 10px;
+}
+
+
+.table thead tr th{
+	background-color: #fff;
+	padding: 15px 21px;
+	vertical-align: middle;
+
+}
+
+
+.Wealth-tab table tr td{
+    font-size: 14px;
+    font-weight: 500;
+    padding: 17px 23px;
+}
+
+.Wealth-tab table{
+	border-radius: 10px;
+	/* background-color: red; */
+}
+
+.td-btc-img img{
+width: 28px;
+}
+
+.Wealth-tab table tr:nth-child(odd) {
+	background: #ededec;
+}
+.Wealth-tab table tr:nth-child(even) {
+    background: #f7f7f7;
+}
+
+/* top-left border-radius */
+table tr:first-child th:first-child,
+table.Info tr:first-child td:first-child {
+	border-top-left-radius: 10px;
+}
+
+/* top-right border-radius */
+table tr:first-child th:last-child,
+table.Info tr:first-child td:last-child {
+	border-top-right-radius: 10px;
+}
+
+/* bottom-left border-radius */
+table tr:last-child td:first-child {
+	border-bottom-left-radius: 10px;
+}
+
+/* bottom-right border-radius */
+table tr:last-child td:last-child {
+	border-bottom-right-radius: 10px;
+}
+.table .progress {
+    height: 15px;
+    margin-bottom: 0px;
+    background-color: #c4c4c4;
+    line-height: 16px;
+    vertical-align: middle !important;
+	margin-top: 6px;
+	width: 100px;
+}
+
+.table .progress-bar {
+    float: left;
+    width: 0;
+    height: 100%;
+    font-size: 12px;
+    line-height: 15px;
+	color: #fff;
+	vertical-align: middle !important;
+    text-align: center;
+    background-color: #337ab7;
+    -webkit-box-shadow: inset 0 -1px 0 rgba(0,0,0,.15);
+    box-shadow: inset 0 -1px 0 rgba(0,0,0,.15);
+    -webkit-transition: width .6s ease;
+    -o-transition: width .6s ease;
+    transition: width .6s ease;
+}
+
+.btn-share{
+    border-radius: 20px;
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 4px 12px;
+    background-color: #528f32;
+    border-color: #528f32;
+}
+.btn-share:focus,
+.btn-share:active,
+.btn-share:hover{
+    outline: 0px;
+    outline-offset: 0px;
+}
+
+.wallet-bg1{
+	background-color: rgba(0, 0, 0, 0.18);
+	color: #fff;
+	padding: 10px;
+}
+.wallet-bg2{
+	background-color: rgba(0, 0, 0, 0.40);
+	color: #fff;
+	padding: 10px;
+}
+
+.box{
+	border: solid 1px #FFF;
+	border-radius: 5px;
+	padding: 15px;
+}
+.padding-per-slider{
+	padding: 20px 0px 30px 0px;
+}
+
+/*Slider CSS Start*/
+
+
+.slider.slider-horizontal {
+    width: 40%;
+    height: 20px;
+}
+
+.slider-tick {
+    position: absolute;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    background-image: -webkit-linear-gradient(top,#f9f9f9 0,#f5f5f5 100%);
+    background-image: -o-linear-gradient(top,#f9f9f9 0,#f5f5f5 100%);
+    background-image: linear-gradient(to bottom,#005826 0,#005826 100%);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff9f9f9',endColorstr='#fff5f5f5',GradientType=0);
+    -webkit-box-shadow: inset 0 -1px 0 rgba(0,0,0,0.15);
+    box-shadow: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    filter: none;
+    top: -12px;
+    opacity: 1;
+    border: 2px solid #fff;
+}
+
+.slider-tick.in-selection {
+    background-image: -webkit-linear-gradient(top,#8ac1ef 0,#82b3de 100%);
+    background-image: -o-linear-gradient(top,#8ac1ef 0,#82b3de 100%);
+    background-image: linear-gradient(to bottom,#4f8632 0,#4f8632 100%);
+    background-repeat: repeat-x;
+    border: 2px solid #fff;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff8ac1ef',endColorstr='#ff82b3de',GradientType=0);
+    opacity: 1;
+}
+.slider-handle {
+    position: absolute;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    background-image: -webkit-linear-gradient(top,#337ab7 0,#2e6da4 100%);
+    background-image: -o-linear-gradient(top,#337ab7 0,#2e6da4 100%);
+    background-image: linear-gradient(to bottom,#337ab700 0,#2e6da400 100%);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff337ab7',endColorstr='#ff2e6da4',GradientType=0);
+    filter: none;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.05);
+    box-shadow: none;
+    border: 0 solid transparent;
+}
+.slider-track-low, .slider-track-high {
+    position: absolute;
+    background: #005826;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 0;
+}
+
+.slider-selection.tick-slider-selection {
+    background-image: -webkit-linear-gradient(top,#8ac1ef 0,#82b3de 100%);
+    background-image: -o-linear-gradient(top,#8ac1ef 0,#82b3de 100%);
+    background-image: linear-gradient(to bottom,#208d4e 0,#005825 100%);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff8ac1ef',endColorstr='#ff82b3de',GradientType=0);
+}
+.slider.slider-horizontal .slider-track {
+    height: 4px;
+    width: 100%;
+    margin-top: -3px;
+    top: 50%;
+    left: 0;
+}
+
+.slider.slider-horizontal .slider-tick-label-container .slider-tick-label {
+    padding-top: 4px;
+    display: inline-block;
+    text-align: center;
+    font-size: 10px;
+    color: #fff;
+    top: -4px;
+    z-index: 999;
+
+}
+
+
+
+/*Slider CSS End*/
+
+
+/* table end */
+
+/* share modal start */
+
+.share-modal .modal-header {
+    padding: 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.32);
+}
+.share-modal h3{
+	font-size: 22px;
+    font-weight: 600;
+}
+.fonts-clock{
+	font-size: 14px;
+    font-weight: 600;
+}
+.red-para{
+    font-size: 11px !important;
+    font-weight: 500 !important;
+}
+.share-padding-left-20{
+    padding-left: 20px;
+}
+.share-padding-left-50{
+    padding-left: 50px;
+}
+.flex-container {
+	display: flex;
+	justify-content: center;
+
+ }
+  
+  .flex-container > div {
+	color: #fff;
+	margin: 10px;
+	text-align: center;
+	line-height: 15px;
+	font-size: 12px;
+  }
+.flex-container2 {
+	display: flex;
+	flex-direction: row;
+}
+
+.flex-container2 > div {
+	color: #fff;
+	margin: 10px;
+	text-align: center;
+	line-height: 15px;
+	font-size: 12px;
+}
+.flex-container3 {
+	display: flex;
+	justify-content: center;
+}
+
+.flex-container3 > div {
+	color: #fff;
+	margin: 10px;
+	text-align: center;
+	line-height: 15px;
+	font-size: 12px;
+}
+
+p{
+	margin: 0px;
+}
+.btn-white-share{
+    background-color: #fff;
+    padding: 8px 35px;
+    font-size: 12px;
+    color: #2c563f;
+    border-radius: 6px;
+    font-weight: 700;
+}
+.share-crypto-values{
+    background-color: #fff;
+    padding: 10px 45px;
+    color: #000000;
+    border-radius: 5px;
+}
+.color-btc{
+    color: #2c563f !important;
+    font-size: 13px !important;
+    font-weight: 600 !important;
+}
+.btn-white:hover {
+	background-color: #fff;
+	/* padding: 10px 30px; */
+	color: #000;
+}
+
+.btn-cancel{
+    background-color: transparent;
+    padding: 7px 40px;
+    border: solid 1px #fff;
+    color: #fff;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: 600;
+}
+.btn-cancel:hover {
+	background-color: transparent;
+	padding: 5px 40px;
+	border: solid 1px #fff;
+	color: #fff;
+}
+.share-modal .modal-dialog {
+	width: 850px;
+	margin: 30px auto;
+}
+.bg-red{
+	padding: 5px ;
+	background-color: #a90f05;
+}
+/* share modal end */
+
+
+#loginModal .modal-dialog,
+#Forgot_Passowrd-tab .modal-dialog,
+#Register-modal .modal-dialog{
+	width: 450px;
+}
+
+
+
+/* footer start */
+#footer-bg{
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background: rgb(91,149,46);
+background: linear-gradient(106deg, rgba(91,149,46,1) 0%, rgba(33,76,66,1) 100%);
+}
+.footer-color{
+    color: #fefefe;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 2;
+}
+.faa i {
+	color: #fff;
+    font-size: 22px;
+}
+.faa2 i {
+	color: #f1c738;
+    font-size: 22px;
+}
+.p-20{
+    padding: 0px 20px;
+}
+
+/* footer end */
+
+
+
+
+/* login modal start */
+
+.loginModal{
+	background: rgb(91,149,46);
+	background: linear-gradient(106deg, rgba(91,149,46,1) 0%, rgba(33,76,66,1) 100%);
+}
+
+.loginModal p {
+    color: #fefefe;
+    font-size: 14px;
+    font-weight: 300;
+    /*line-height: 2;*/
+}
+.modal-img{
+    text-align: center;
+    margin-top: 20px;
+}
+.modal-img img {
+    width: 150px;
+}
+.login-text-padding{
+    padding: 5px 25px;
+}
+.login-heading-padding{
+    padding: 5px 40px;
+    padding-top: 32px;
+    font-size: 20px;
+}
+.white-color-text{
+    color: #ffffff;
+}
+.font-size-25{
+    color: #fefefe !important;
+    font-size: 18px !important;
+    font-weight: 400 !important;
+}
+.form-login input {
+	padding: 10px 20px;
+    background: transparent;
+    border: solid 1px #fff;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: 500;
+}
+.close {
+    float: right;
+    font-size: 30px;
+    font-weight: 100;
+    line-height: 1;
+    color: #fff;
+    position: relative;
+    right: 10px;
+    top: 0px;
+    text-shadow: 0 1px 0 #fff;
+    filter: alpha(opacity=20);
+    opacity: .8;
+    z-index: 10000;
+}
+.close:focus, .close:hover {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    filter: alpha(opacity=50);
+    opacity: 1;
+}
+.paddiing-bottom-20{
+    padding-bottom: 20px;
+ }
+  .color-pech{
+	color:  #fff !important;
+    font-size: 16px;
+    font-weight: 600;
+}
+.color-pech:hover {
+    color:  #fff !important;
+}
+.color-pech-tick{
+    color:  #fff !important;
+}
+.modal-bg {
+    border: solid 9px rgba(51, 51, 51, 0.87);
+    border-radius: 20px;
+    /* background-color: rgba(14, 14,14, 0.62); */
+}
+
+#loginModal .checkbox .cr, .radio .cr {
+    position: relative;
+    display: inline-block;
+    border: 1px solid #a9a9a9;
+    border-radius: .25em;
+    width: 1.3em;
+    height: 1.3em;
+    float: left;
+    margin-right: .5em;
+}
+.login-btn {
+    background-color: #FFf;
+    font-weight: 600;
+    font-size: 13px;
+    border-radius: 5px;
+    border: 0px;
+    color: #000;
+}
+
+.checkbox label, .radio label {
+    min-height: 20px;
+    padding-left: 0px;
+    margin-bottom: 0;
+    font-weight: 400;
+    cursor: pointer;
+}
+.login-btn:focus {
+    background-color: #fff !important;
+    font-weight: 500;
+    font-size: 22px;
+    border-radius: 10px;
+}
+.login-btn:active {
+    background-color: #fff !important;
+    font-weight: 500;
+    font-size: 22px;
+    border-radius: 10px;
+}
+.login-btn:hover
+{
+    background-color: #fff !important;
+	color: #000;
+}
+.or-font{
+    font-size: 18px;
+    font-weight: 400;
+}
+.google-facebook-btn{
+    margin-right: 20px;
+}
+.forgot-pass{
+    font-weight: 400;
+    font-size: 17px;
+    padding: 30px;
+}
+.forgot-pass a:hover{
+	color: #ffffff;
+	text-decoration: none;
+}
+.shadow{
+    -webkit-box-shadow: 0px 3px 13px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 3px 13px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 3px 13px 0px rgba(0,0,0,0.75);
+}
+.m-t-20{
+    margin-right: 20px;
+}
+.login-modal-padding {
+	padding: 30px 50px 0px 50px;
+}
+.forget-pass{
+    font-size: 12px;
+    font-weight: 400;
+}
+/* login modal end */
+
+
+
+
+
+
+/* remember me section end */
+
+.checkbox label:after,
+.radio label:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.checkbox .cr,
+.radio .cr {
+    position: relative;
+    display: inline-block;
+    border: 1px solid #a9a9a9;
+    border-radius: .25em;
+    width: 1.3em;
+    height: 1.3em;
+    float: left;
+    margin-right: .5em;
+}
+
+.radio .cr {
+    border-radius: 50%;
+}
+
+.checkbox .cr .cr-icon,
+.radio .cr .cr-icon {
+    position: absolute;
+    font-size: .8em;
+    line-height: 0;
+    top: 50%;
+    left: 20%;
+}
+
+.radio .cr .cr-icon {
+    margin-left: 0.04em;
+}
+
+.checkbox label input[type="checkbox"],
+.radio label input[type="radio"] {
+    display: none;
+}
+
+.checkbox label input[type="checkbox"] + .cr > .cr-icon,
+.radio label input[type="radio"] + .cr > .cr-icon {
+    transform: scale(3) rotateZ(-20deg);
+    opacity: 0;
+    transition: all .3s ease-in;
+}
+
+.checkbox label input[type="checkbox"]:checked + .cr > .cr-icon,
+.radio label input[type="radio"]:checked + .cr > .cr-icon {
+    transform: scale(1) rotateZ(0deg);
+    opacity: 1;
+}
+/* remember me section end */
+
+
+
+
+
+/* place holder start */
+.form-group::-webkit-input-placeholder { color: #999; }  /* WebKit, Blink, Edge */
+.form-group:-moz-placeholder { color: #999; }  /* Mozilla Firefox 4 to 18 */
+.form-group::-moz-placeholder { color: #999; }  /* Mozilla Firefox 19+ */
+.form-group:-ms-input-placeholder { color: #999; }  /* Internet Explorer 10-11 */
+.form-group::-ms-input-placeholder { color: #999; }  /* Microsoft Edge */
+/* placeholder end */
+
+
+
+/* **************************************Investment usage page start******************************************** */
+.padding-invest-withdrawal{
+    padding: 0px 60px;
+}
+.Investment-usage-tab table thead tr th  {
+    background-color: #fff;
+    padding: 30px 35px;
+    vertical-align: middle;
+    border: 0px !important;
+}
+.Investment-usage-tab table tbody tr th  {
+    padding: 20px 20px;
+    font-size: 13px;
+    font-weight: 700;
+} 
+.Investment-usage-tab table tbody tr td  {
+    padding: 20px 20px;   
+} 
+.invest-tab-heading{
+    font-size: 24px;
+    font-weight: 700;
+}
+.Investment-usage-tab table tr:nth-child(odd) {
+	background: #fff;
+}
+.Investment-usage-tab table tr:nth-child(even) {
+    background: #f3f3f2;
+}
+.heading-invest-tab h2{
+    font-size: 24px;
+    font-weight: 900;
+}
+/* **************************************Investment usage page end********************************************** */
+
+
+
+/* **************************************SECURITY SETTINGS START************************************************ */
+.email-verification-sec {
+    padding: 35px 72px;
+}
+.verify-font{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+/* input field start */
+.stylish-input-group .input-group-addon{
+    background: white !important; 
+}
+.stylish-input-group .form-control{
+	/* border-right:0;  */
+	box-shadow:0 0 0; 
+	border-color:#ccc;
+}
+
+.sec-input label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.sec-input input[type="text"] {
+    background-color: #f9f9f9;
+    border: solid 2px #cecece;
+    width: 60%; 
+    color: #000;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 3px;
+}
+.btn-withdrawal {
+    font-size: 12px;
+    font-weight: 600;
+    background-color: #558b2d;
+    padding: 10px 10px;
+    min-width: 170px;
+}
+.btn-withdrawal.focus, .btn-withdrawal:visited, .btn-withdrawal:active, .btn-withdrawal:hover
+{
+    font-size: 12px;
+    font-weight: 600;
+    border: opx;
+    background-color: #558b2d !important;
+    padding: 10px 10px;
+    min-width: 170px;
+}
+.ver-para{
+    font-size: 11px;
+    font-weight: 600;
+}
+/* input field end */
+.border{
+    border-right:2px solid #b7b5b5;
+}
+.padding-panel{
+    padding: 0px 70px;
+}
+.email-verification-sec .text-center img {
+    width: 45px;
+}
+/* **************************************SECURITY SETTINGS END************************************************ */
+
+/* **************************************CHANGE USER SETTINGS START************************************************ */
+
+.change-inf0-btn{
+background-color: #558b2d;
+font-size: 13px;
+font-weight: 600;
+}
+
+.change-user-info label.col-md-3.control-label {
+    font-size: 12px;
+    font-weight: 500;
+    text-align: left;
+}
+.label{
+    background-color: #558b2d;
+    font-size: 13px;
+    font-weight: 600;
+    
+}
+
+.change-email-input input[type="text"] {
+    background-color: #f9f9f9;
+    border: solid 1px #cecece;
+    color: #000;
+    font-size: 14px;
+    border-radius: 5px
+}
+
+.change-email-input-remain input[type="text"] {
+    /* background-color: #f9f9f9; */
+    border: solid 1px #cecece;
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 5px;
+}
+.btn-modify {
+    font-size: 12px;
+    font-weight: 600;
+    background-color: #558b2d;
+    padding: 10px 10px;
+    width: 170px;
+}
+/* **************************************CHANGE USER SETTINGS END************************************************ */
+
+/* **************************************Deposit start************************************************ */
+.paddiing-btns-sec{
+    padding: 40px 60px;
+}
+.deposit-btn{
+    max-width: 144px;
+    background-color: #558b2d;
+    font-size: 13px;
+    font-weight: 600;
+    border: solid 3px #558b2d;
+    border-radius: 30PX;
+    color: #fff !important;
+    padding: 10px 25px;
+    margin-bottom: 10px;
+
+}
+.deposit-btn:focus,
+.deposit-btn:active,
+.deposit-btn:hover{
+    background-color: transparent !important;
+    color: #558b2d !important; 
+    border: solid 3px #558b2d;
+}
+.well-bg{
+    background-color: #fff;
+    border: solid 2px #cecece;
+    border-radius: 5px;
+    padding: 20px;
+}
+.well-bg-instructions{
+    background-color: #fff;
+    border: solid 2px #cecece;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: justify;
+}
+.font-gnr{
+    font-size: 23px;
+    font-weight: 700;
+    color: #616161;
+}
+.well-para{
+    font-size: 11px;
+    font-weight: 500;
+    color: #4b4b4b;
+}
+.well-para-p{
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    color: #4b4b4b;
+}
+.well-wellat-address input[type="text"] {
+    border: solid 1px #cecece;;
+    font-size: 16px;
+    border-radius: 5px;
+    width: 70%;
+}
+.qr-img img {
+    width: 100px;
+    padding: 40px 0px;
+}
+
+.deposit-pg .form-group label.col-md-3.control-label {
+    font-size: 11px;
+    font-weight: 300;
+    color: #4b4b4b;
+    text-align: left;
+}
+
+
+.deposit-pg .change-email-input-remain input[type="text"] {
+    /* background-color: #f9f9f9; */
+    border: solid 1px #cecece;
+    color: #000;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.well-bg-instructions ul li{
+    font-size: 14px;
+    font-weight: 400;
+    color: #000;
+    list-style: none;
+}
+.para-input {
+    font-size: 11px;
+    font-weight: 300;
+    color: #4b4b4b;
+    text-align: left;
+}
+.btn-veri-font{
+    font-size: 12px;
+    font-weight: 600;
+    background-color: #558b2d;
+    padding: 10px 10px;
+    width: 170px;
+}
+.btn-veri-font.focus, .btn-veri-font:visited, .btn-veri-font:active, .btn-veri-font:hover {
+
+    text-decoration: none;
+    background-color: #558b2d !important;
+}
+.padding-well{
+    padding: 20px 30px;
+}
+
+/* **************************************Deposit end************************************************ */
+
+
+
+
+
+
+/* **************************************withdrawal start************************************************ */
+.well-para-withdrawal{
+    font-size: 11px;
+    font-weight: 500;
+    color: #4b4b4b;
+}
+.withdrawal-form .form-group label.col-md-2.control-label {
+    font-size: 11px;
+    font-weight: 300;
+    color: #4b4b4b;
+    text-align: left;
+}
+.padding-withdrawal-form {
+    padding: 70px 125px;
+}
+.icon-addon.addon-lg .form-control {
+    height: 35px;
+    font-size: 18px;
+    padding: 10px 0px 10px 12px;
+    border: solid 2px #cecece;
+    color: #000;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.input-group-btn:last-child>.btn, .input-group-btn:last-child>.btn-group {
+    z-index: 2;
+    margin-left: -5px;
+}
+.input-group-lg>.form-control, .input-group-lg>.input-group-addon, .input-group-lg>.input-group-btn>.btn {
+    height: 35px;
+    padding: 0px 12px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 4px;
+    border: solid 2px #cecece;
+}
+.btn-max-bg{
+    background-color: #558b2d;
+    color: #fff;
+    width: 90px;
+    margin-bottom: 5px;
+}
+
+.btn-max-bg:focus,
+.btn-max-bg:active,
+.btn-max-bg:hover{
+    outline: 0px;
+    color: #fff !important;
+    outline-offset: 0px;
+}
+
+.btn-border-bg{
+    background-color: transparent;
+    color: #558b2d;
+    border: solid 2px #558b2d;
+    width: 90px;
+    font-size: 12px;
+    font-weight: 600;
+}
+.btn-border-bg:focus,
+.btn-border-bg:active,
+.btn-border-bg:hover{
+    outline: 0px;
+    outline-offset: 0px;
+}
+
+/* **************************************withdrawal  end************************************************ */
+
+
+
+
+
+
+
+/* **************************************Mobile media start************************************************ */
+@media (max-width: 800px){
+    #loginModal .modal-dialog, #Forgot_Passowrd-tab .modal-dialog, #share .modal-dialog, #Register-modal .modal-dialog {
+        width: 95%;
+    }
+    .nav-bg{
+        background-color: #316a41 !important;
+        color: #fff;
+    }
+    .mob-text-center{
+        text-align: center;
+        }
+        .mob-text-left{
+            text-align: left;
+        }
+}
+
+@media (max-width: 500px){
+
+    /* investment withdrawal both pages padding  */
+    .padding-invest-withdrawal {
+        padding: 0px 0px;
+    }
+    /* investment withdrawal both pages padding */
+    /* modal responsiveness */
+    #loginModal .modal-dialog, #Forgot_Passowrd-tab .modal-dialog, #share .modal-dialog, #Register-modal .modal-dialog {
+        width: 95%;
+    }
+    .login-modal-padding {
+        padding: 30px 35px 0px 30px;
+    }
+
+    /* share modal start*/
+    .share-padding-left-20{
+        padding-left: 0px;
+    }
+    .share-padding-left-50{
+        padding-left: 0px;
+    }
+    .share-padding-left-0{
+        padding-left: 20px;
+    }
+    .mob-p-t-5{
+        padding-top: 5px;
+    }
+    .flex-container3 {
+        display: flex;
+        /* justify-content: center; */
+        flex-direction: column;
+    }
+    .share-padding-left-0{
+        padding-left: 50px;
+    }
+    .share-crypto-values {
+        background-color: #fff;
+        padding: 10px 28px;
+        color: #000000;
+        border-radius: 5px;
+    }
+    .btn-white-share {
+        background-color: #fff;
+        padding: 8px 8px;
+        font-size: 12px;
+        color: #2c563f;
+        border-radius: 6px;
+        font-weight: 700;
+    }
+    .flex-container2 {
+        display: flex;
+        flex-direction: column;
+    }
+    /* share modal end */
+    /* modal responsiveness */
+
+    /*NAV START*/
+    .nav-bg{
+        background-color: #316a41 !important;
+        color: #fff;
+    }
+
+    .navbar-fixed-top.scrolled {
+        background-color: #316a41 !important;
+        transition: background-color 2ms linear;
+    }
+    /*NAV END*/
+
+    /* header start */
+    .bg p {
+        margin: 0px;
+        font-size: 13px;
+        font-weight: 200;
+    }
+    /* header end */
+
+    /* deposit se */
+    .paddiing-btns-sec{
+        padding: 0px;
+    }
+    .deposit-btn {
+        /*width: 125px;*/
+        background-color: #558b2d;
+        font-size: 13px;
+        font-weight: 600;
+        border: solid 3px #558b2d;
+        border-radius: 30PX;
+        color: #fff !important;
+        padding: 10px 0px;
+        margin-bottom: 10px;
+
+    }
+    .font-gnr {
+        padding-top: 15px;
+    }
+    .well-wellat-address input[type="text"] {
+        width: 100%;
+    }
+    .wallet-address-mob{
+        padding: 10px 0px 0px 0px;
+    }
+    .mob-text-center{
+    text-align: center;
+    }
+    .mob-text-left{
+        text-align: left;
+    }
+     /* deposit page */
+    /* withdrawal page start */
+    .padding-withdrawal-form {
+        padding: 70px 5px;
+    }
+    /* withdrawal page end */
+
+   /* change security setting start */
+   .email-verification-sec {
+    padding: 35px 7px;
+    }
+    .p-20{
+        padding: 0px 20px;
+    }
+    .padding-panel {
+        padding: 0px 20px;
+    }
+    /*change security setting end  */
+
+   /*footer start*/
+    .mob-bottom-padding-50{
+        padding-bottom: 50px;
+    }
+    /*footer end*/
+    .border{
+        border-right: 0px;
+    }
+
+}
+
+
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 568px)
+and (-webkit-min-device-pixel-ratio: 2) {
+    .nav-bg{
+        background-color: #316a41;
+        color: #fff;
+    }
+
+    .nav-bg{
+        background-color: #316a41;
+        color: #fff;
+    }
+
+    /* change security setting start */
+   .email-verification-sec {
+    padding: 35px 7px;
+    }
+    .padding-panel {
+        padding: 0px 20px;
+    }
+    /*change security setting end  */
+
+    /* header start */
+   .bg p {
+    margin: 0px;
+    font-size: 13px;
+    font-weight: 200;
+   }
+   /* header end */
+
+}
+
+
+/* ----------- Google Pixel ----------- */
+
+/* Portrait and Landscape */
+@media screen
+and (device-width: 360px)
+and (device-height: 640px)
+and (-webkit-device-pixel-ratio: 3) {
+    /*NAV START*/
+    .nav-bg{
+        background-color: #316a41;
+        color: #fff;
+    }
+
+    /*NAV END*/
+
+   /* header start */
+   .bg p {
+    margin: 0px;
+    font-size: 13px;
+    font-weight: 200;
+}
+   /* header end */
+
+
+    /* deposit se */
+    .paddiing-btns-sec{
+        padding: 0px;
+    }
+    .deposit-btn {
+        width: 125px;
+        background-color: #558b2d;
+        font-size: 13px;
+        font-weight: 600;
+        border: solid 3px #558b2d;
+        border-radius: 30PX;
+        color: #fff !important;
+        padding: 10px 0px;
+        margin-bottom: 10px;
+
+    }
+    .font-gnr {
+        padding-top: 15px;
+    }
+    .well-wellat-address input[type="text"] {
+        width: 100%;
+    }
+    .wallet-address-mob{
+        padding: 10px 0px 0px 0px;
+    }
+    .mob-text-center{
+        text-align: center;
+    }
+    .mob-text-left{
+        text-align: left;
+    }
+    /* deposit page */
+
+    /* withdrawal page start */
+    .padding-withdrawal-form {
+        padding: 70px 5px;
+    }
+    /* withdrawal page end */
+
+    /* change security setting start */
+   .email-verification-sec {
+    padding: 35px 7px;
+    }
+    .padding-panel {
+        padding: 0px 20px;
+    }
+    /*change security setting end  */
+
+    /*footer start*/
+    .mob-bottom-padding-50{
+        padding-bottom: 50px;
+    }
+    /*footer end*/
+
+}
+
+@media screen and (device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) {
+    /*NAV START*/
+    .nav-bg{
+        background-color: #316a41;
+        color: #fff;
+    }
+    /*NAV END*/
+   /* header start */
+   .bg p {
+    margin: 0px;
+    font-size: 13px;
+    font-weight: 200;
+   }
+   /* header end */
+    /* deposit se */
+    .paddiing-btns-sec{
+        padding: 0px;
+    }
+    .mob-m-p-0{
+        margin: 0px;
+        padding:0px
+    }
+    .deposit-btn {
+        min-width: 60px;
+        background-color: #558b2d;
+        font-size: 12px;
+        font-weight: 600;
+        border: solid 3px #558b2d;
+        border-radius: 30PX;
+        color: #fff !important;
+        padding: 6px 10px;
+        margin-bottom: 10px;
+    }
+    .font-gnr {
+        padding-top: 15px;
+    }
+    .well-wellat-address input[type="text"] {
+        width: 100%;
+    }
+    .wallet-address-mob{
+        padding: 10px 0px 0px 0px;
+    }
+    .mob-text-center{
+        text-align: center;
+    }
+    .mob-text-left{
+        text-align: left;
+    }
+    /* deposit page */
+   /* header start */
+   .bg p {
+    margin: 0px;
+    font-size: 11px;
+    font-weight: 200;
+    }
+/* header end */
+
+    /* withdrawal page start */
+    .padding-withdrawal-form {
+        padding: 70px 5px;
+    }
+    /* withdrawal page end */
+/* share model  */
+    .btn-cancel {
+        background-color: transparent;
+        padding: 7px 25px;
+        border: solid 1px #fff;
+        color: #fff;
+        border-radius: 6px;
+        font-size: 12px;
+        font-weight: 600;
+    }
+    .share-crypto-values {
+        background-color: #fff;
+        padding: 10px 24px;
+        color: #000000;
+        border-radius: 5px;
+    }
+    /* share modal end */
+    /* change security setting start */
+   .email-verification-sec {
+    padding: 35px 7px;
+    }
+    .padding-panel {
+        padding: 0px 20px;
+    }
+    /*change security setting end  */
+
+    /*footer start*/
+    .mob-bottom-padding-50{
+        padding-bottom: 50px;
+    }
+    /*footer end*/
+
+}
+/* ----------- Google Pixel ----------- */
+
+/* Portrait and Landscape */
+@media screen
+and (device-width: 360px)
+and (device-height: 640px)
+and (-webkit-device-pixel-ratio: 3) {
+    /*NAV START*/
+    .nav-bg{
+        background-color: #316a41;
+        color: #fff;
+    }
+
+    /*NAV END*/
+/* header start */
+.bg p {
+    margin: 0px;
+    font-size: 13px;
+    font-weight: 200;
+}
+/* header end */
+
+    /* deposit se */
+    .paddiing-btns-sec{
+        padding: 0px;
+    }
+    .deposit-btn {
+        width: 125px;
+        background-color: #558b2d;
+        font-size: 13px;
+        font-weight: 600;
+        border: solid 3px #558b2d;
+        border-radius: 30PX;
+        color: #fff !important;
+        padding: 10px 0px;
+        margin-bottom: 10px;
+
+    }
+    .font-gnr {
+        padding-top: 15px;
+    }
+    .well-wellat-address input[type="text"] {
+        width: 100%;
+    }
+    .wallet-address-mob{
+        padding: 10px 0px 0px 0px;
+    }
+    .mob-text-center{
+        text-align: center;
+    }
+    .mob-text-left{
+        text-align: left;
+    }
+    /* deposit page */
+
+    /* withdrawal page start */
+    .padding-withdrawal-form {
+        padding: 70px 5px;
+    }
+    /* withdrawal page end */
+
+    /* change security setting start */
+   .email-verification-sec {
+    padding: 35px 7px;
+    }
+    .padding-panel {
+        padding: 0px 20px;
+    }
+    /*change security setting end  */
+
+    /*footer start*/
+    .mob-bottom-padding-50{
+        padding-bottom: 50px;
+    }
+    /*footer end*/
+
+}
+
+@media screen
+and (device-width: 411px)
+and (device-height: 640px)
+and (-webkit-device-pixel-ratio: 3) {
+    /*NAV START*/
+    .nav-bg{
+        background-color: #316a41;
+        color: #fff;
+    (max-width: 500px)
+    }
+
+    /*NAV END*/
+    /* header start */
+    .bg p {
+        margin: 0px;
+        font-size: 13px;
+        font-weight: 200;
+    }
+    /* header end */
+
+    /* deposit se */
+    .paddiing-btns-sec{
+        padding: 0px;
+    }
+    .deposit-btn {
+        width: 125px;
+        background-color: #558b2d;
+        font-size: 13px;
+        font-weight: 600;
+        border: solid 3px #558b2d;
+        border-radius: 30PX;
+        color: #fff !important;
+        padding: 10px 0px;
+        margin-bottom: 10px;
+
+    }
+    .font-gnr {
+        padding-top: 15px;
+    }
+    .well-wellat-address input[type="text"] {
+        width: 100%;
+    }
+    .wallet-address-mob{
+        padding: 10px 0px 0px 0px;
+    }
+    .mob-text-center{
+        text-align: center;
+    }
+    .mob-text-left{
+        text-align: left;
+    }
+    /* deposit page */
+
+    /* withdrawal page start */
+    .padding-withdrawal-form {
+        padding: 70px 5px;
+    }
+    .padding-panel {
+        padding: 0px 20px;
+    }
+    /* withdrawal page end */
+
+    /*footer start*/
+    .mob-bottom-padding-50{
+        padding-bottom: 50px;
+    }
+    /*footer end*/
+
+}
+  /* media query for googl pixel landscape */
+@media only screen and (min-width: 411px) and (max-width: 731px) {
+
+    /*NAV START*/
+
+       .nav-bg{
+        background-color: #316a41 !important;
+        color: #fff;
+    }
+
+    .navbar-fixed-top.scrolled {
+        background-color: #316a41 !important;
+        transition: background-color 2ms linear;
+    }
+    /*NAV END*/
+
+}
+
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 667px)
+and (-webkit-min-device-pixel-ratio: 2) {
+    .nav-bg{
+        background-color: #316a41;
+        color: #fff;
+      }
+
+      /* header start */
+    .bg p {
+        margin: 0px;
+        font-size: 13px;
+        font-weight: 200;
+    }
+    /* header end */
+
+      /* deposit se */
+    .paddiing-btns-sec{
+        padding: 0px;
+    }
+    .deposit-btn {
+        margin-bottom: 10px;
+        width: 125px;
+        background-color: #558b2d;
+        font-size: 13px;
+        font-weight: 600;
+        border: solid 3px #558b2d;
+        border-radius: 30PX;
+        color: #fff !important;
+        padding: 10px 0px;
+    }
+    .font-gnr {
+        padding-top: 15px;
+    }
+    .well-wellat-address input[type="text"] {
+        width: 100%;
+    }
+    .wallet-address-mob{
+        padding: 10px 0px 0px 0px;
+    }
+    .mob-text-center{
+        text-align: center;
+    }
+    .mob-text-left{
+        text-align: left;
+    }
+    /* deposit page */
+    /* withdrawal page start */
+    .padding-withdrawal-form {
+        padding: 70px 5px;
+    }
+    /* withdrawal page end */
+
+    /* change security setting start */
+   .email-verification-sec {
+    padding: 35px 7px;
+    }
+    .padding-panel {
+        padding: 0px 20px;
+    }
+    /*change security setting end  */
+
+    /*footer start*/
+    .mob-bottom-padding-50{
+        padding-bottom: 50px;
+    }
+    /*footer end*/
+
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+and (min-device-width: 414px)
+and (max-device-width: 736px)
+and (-webkit-min-device-pixel-ratio: 3) {
+
+    /* header start */
+    .bg p {
+        margin: 0px;
+        font-size: 13px;
+        font-weight: 200;
+    }
+    /* header end */
+
+    /* deposit se */
+    .paddiing-btns-sec{
+        padding: 0px;
+    }
+    .deposit-btn {
+        margin-bottom: 10px;
+        width: 125px;
+        background-color: #558b2d;
+        font-size: 13px;
+        font-weight: 600;
+        border: solid 3px #558b2d;
+        border-radius: 30PX;
+        color: #fff !important;
+        padding: 10px 0px;
+    }
+    .font-gnr {
+        padding-top: 15px;
+    }
+    .well-wellat-address input[type="text"] {
+        width: 100%;
+    }
+    .wallet-address-mob{
+        padding: 10px 0px 0px 0px;
+    }
+    .mob-text-center{
+        text-align: center;
+    }
+    .mob-text-left{
+        text-align: left;
+    }
+    /* deposit page */
+    /* withdrawal page start */
+    .padding-withdrawal-form {
+        padding: 70px 5px;
+    }
+    /* withdrawal page end */
+
+    /* change security setting start */
+   .email-verification-sec {
+    padding: 35px 7px;
+    }
+    .padding-panel {
+        padding: 0px 20px;
+    }
+    /*change security setting end  */
+
+    /*footer start*/
+    .mob-bottom-padding-50{
+        padding-bottom: 50px;
+    }
+    /*footer end*/
+
+}
+
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 812px)
+and (-webkit-min-device-pixel-ratio: 3) {
+    /* header start */
+    .bg p {
+        margin: 0px;
+        font-size: 13px;
+        font-weight: 200;
+    }
+    /* header end */
+
+
+    /* deposit se */
+    .paddiing-btns-sec{
+        padding: 0px;
+    }
+    .deposit-btn {
+        margin-bottom: 10px;
+        width: 125px;
+        background-color: #558b2d;
+        font-size: 13px;
+        font-weight: 600;
+        border: solid 3px #558b2d;
+        border-radius: 30PX;
+        color: #fff !important;
+        padding: 10px 0px;
+    }
+    .font-gnr {
+        padding-top: 15px;
+    }
+    .well-wellat-address input[type="text"] {
+        width: 100%;
+    }
+    .wallet-address-mob{
+        padding: 10px 0px 0px 0px;
+    }
+    .mob-text-center{
+        text-align: center;
+    }
+    .mob-text-left{
+        text-align: left;
+    }
+    /* deposit page */
+    /* withdrawal page start */
+    .padding-withdrawal-form {
+        padding: 70px 5px;
+    }
+    /* withdrawal page end */
+
+    /* change security setting start */
+   .email-verification-sec {
+    padding: 35px 7px;
+    }
+    .padding-panel {
+        padding: 0px 20px;
+    }
+    /*change security setting end  */
+
+    /*footer start*/
+    .mob-bottom-padding-50{
+        padding-bottom: 50px;
+    }
+    /*footer end*/
+
+}
+
+/* Portrait */
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 812px)
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: portrait) {
+        /* header start */
+        .bg p {
+            margin: 0px;
+            font-size: 13px;
+            font-weight: 200;
+        }
+        /* header end */
+
+    /* deposit se */
+    .paddiing-btns-sec{
+        padding: 0px;
+    }
+    .deposit-btn {
+        margin-bottom: 10px;
+        width: 125px;
+        background-color: #558b2d;
+        font-size: 13px;
+        font-weight: 600;
+        border: solid 3px #558b2d;
+        border-radius: 30PX;
+        color: #fff !important;
+        padding: 10px 0px;
+    }
+    .font-gnr {
+        padding-top: 15px;
+    }
+    .well-wellat-address input[type="text"] {
+        width: 100%;
+    }
+    .wallet-address-mob{
+        padding: 10px 0px 0px 0px;
+    }
+    .mob-text-center{
+        text-align: center;
+    }
+    .mob-text-left{
+        text-align: left;
+    }
+    /* deposit page */
+    /* withdrawal page start */
+    .padding-withdrawal-form {
+        padding: 70px 5px;
+    }
+    /* withdrawal page end */
+
+    /* change security setting start */
+
+    .email-verification-sec {
+    padding: 35px 7px;
+    }
+    .padding-panel {
+        padding: 0px 20px;
+    }
+    /*change security setting end  */
+
+    /*footer start*/
+    .mob-bottom-padding-50{
+        padding-bottom: 50px;
+    }
+    /*footer end*/
+
+}
+
+
+/* ----------- iPad 1, 2, Mini and Air ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+and (min-device-width: 768px)
+and (max-device-width: 1024px)
+and (-webkit-min-device-pixel-ratio: 1) {
+
+    /* header start */
+    .bg p {
+        margin: 0px;
+        font-size: 13px;
+        font-weight: 200;
+    }
+    /* header end */
+    /* deposit se */
+    .paddiing-btns-sec{
+        padding: 0px;
+    }
+    .deposit-btn {
+        margin-bottom: 10px;
+        width: 125px;
+        background-color: #558b2d;
+        font-size: 13px;
+        font-weight: 600;
+        border: solid 3px #558b2d;
+        border-radius: 30PX;
+        color: #fff !important;
+        padding: 10px 0px;
+    }
+    .font-gnr {
+        padding-top: 15px;
+    }
+    .well-wellat-address input[type="text"] {
+        width: 100%;
+    }
+    .wallet-address-mob{
+        padding: 10px 0px 0px 0px;
+    }
+    .mob-text-center{
+        text-align: center;
+    }
+    .mob-text-left{
+        text-align: left;
+    }
+    /* deposit page */
+
+    /* withdrawal page start */
+    .padding-withdrawal-form {
+        padding: 70px 5px;
+    }
+    /* withdrawal page end */
+
+    /* change security setting start */
+
+    .email-verification-sec {
+    padding: 35px 7px;
+    }
+    .padding-panel {
+        padding: 0px 20px;
+    }
+    /*change security setting end  */
+
+    /*footer start*/
+    .mob-bottom-padding-50{
+        padding-bottom: 50px;
+    }
+    /*footer end*/
+
+}
+/* ----------- Galaxy S3 ----------- */
+
+/* Portrait and Landscape */
+@media screen
+and (device-width: 320px)
+and (device-height: 640px)
+and (-webkit-device-pixel-ratio: 2) {
+    .paddiing-btns-sec{
+        padding: 0px;
+    }
+    .deposit-btn {
+        margin-bottom: 10px;
+        width: 125px;
+        background-color: #558b2d;
+        font-size: 13px;
+        font-weight: 600;
+        border: solid 3px #558b2d;
+        border-radius: 30PX;
+        color: #fff !important;
+        padding: 10px 0px;
+    }
+    .font-gnr {
+        padding-top: 15px;
+    }
+    .well-wellat-address input[type="text"] {
+        width: 100%;
+    }
+    .wallet-address-mob{
+        padding: 10px 0px 0px 0px;
+    }
+    .mob-text-center{
+        text-align: center;
+    }
+    .mob-text-left{
+        text-align: left;
+    }
+    /* deposit page */
+
+    /* withdrawal page start */
+    .padding-withdrawal-form {
+        padding: 70px 5px;
+    }
+    /* withdrawal page end */
+
+    /* change security setting start */
+    .email-verification-sec {
+    padding: 35px 7px;
+    }
+    .padding-panel {
+        padding: 0px 20px;
+    }
+    /*change security setting end  */
+
+    /*footer start*/
+    .mob-bottom-padding-50{
+        padding-bottom: 50px;
+    }
+    /*footer end*/
+
+    /* header start */
+    .bg p {
+        margin: 0px;
+        font-size: 13px;
+        font-weight: 200;
+    }
+    /* header end */
+}
+
+/* ipad in portrait & landscape */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)  {
+
+    .border{
+        border-right: 0px;
+    }
+    .navbar-brand img {
+        width: 65%;
+        /* height: 100%; */
+    }
+    .navbar-brand {
+        float: left;
+        height: 36px;
+        padding: 5px 0px;
+        font-size: 18px;
+        line-height: 20px;
+    }
+    /* share modal in ipad */
+    #loginModal .modal-dialog, #Forgot_Passowrd-tab .modal-dialog, #share .modal-dialog, #Register-modal .modal-dialog {
+        width: 95%;
+    }
+    .login-modal-padding {
+        padding: 30px 35px 0px 30px;
+    }
+    /* footer start */
+    .mob-bottom-padding-50{
+        padding-bottom: 50px;
+    }
+    /* footer end */
+
+}
+
+
+/* only for table borders */
+@media screen and (max-width: 767px){
+.table-responsive {
+    width: 100%;
+    margin-bottom: 15px;
+    overflow-y: hidden;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    border: 1px solid #ddd;
+    border-bottom-left-radius: 10px !important;
+    border-bottom-right-radius: 10px !important;
+    border: 1px solid #ddd;
+    border-top-left-radius: 10px !important;
+    border-top-right-radius: 10px !important;
+}
+}
+
+
+/* toggle navbar btn color */
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #316a41;
+}
+
+/*
+/* **************************************Mobile media end************************************************ */
